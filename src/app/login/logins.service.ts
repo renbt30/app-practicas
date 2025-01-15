@@ -18,7 +18,7 @@ export class LoginsService {
     }),
   };
   private urlusuario: string =
-    'https://app-back-practicas.onrender.com/api/auth/usuario/validar';
+    'https://app-practicas.onrender.com/api/auth/usuario/validar';
 
   constructor(
     private http: HttpClient,
