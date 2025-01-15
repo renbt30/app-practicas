@@ -67,7 +67,7 @@ export class LoginsService {
 
   login(user: String, pass: String): Observable<any> {
     const urlEndpoint =
-      'https://app-back-practicas.onrender.com/api/auth/';
+      'https://backend-nodeintegrador.onrender.com/api/auth/';
 
     return this.http.post<any>(urlEndpoint, { username: user, password: pass });
   }
