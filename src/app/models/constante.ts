@@ -1,3 +1,3 @@
 const Urlbackend =
-  'https://app-practicas.onrender.com/api/auth/';
+  'https://backend-nodeintegrador.onrender.com/api/auth/';
 export default Urlbackend;
